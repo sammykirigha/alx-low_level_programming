@@ -8,15 +8,9 @@
  *return 0 at the end
  */
 
-int main(void)
+void main(void)
 {
-  char letter = 'a';
-  
-  while (letter <= 'z')
-  {
-     putchar(letter);
-     letter++;
-  }
-  putchar('\n');
-  return (0);
+  for(int c = 97; c <= 122; c++)
+    putchar("%c", c);
+  putchar("\n");
 }
