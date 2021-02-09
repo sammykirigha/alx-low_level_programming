@@ -36,10 +36,3 @@ void print_to_98(int n)
 	}
 
 }
-
-int main(void)
-{
-	print_to_98(50);
-	_putchar('\n');
-	return (0);
-}
