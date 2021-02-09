@@ -17,9 +17,3 @@ int _islower(int c)
 		return (0);
 	}
 }
-
-int main(void)
-{
-	_islower('b');
-		return (0);
-}
