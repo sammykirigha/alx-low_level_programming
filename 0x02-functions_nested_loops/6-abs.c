@@ -17,12 +17,3 @@ int _abs(int num)
 		return num;
 	}
 }
-
-int main(void)
-{
-	int r;
-
-	r = _abs(-4);
-	printf("%d\n", r);
-	return (0);
-}
