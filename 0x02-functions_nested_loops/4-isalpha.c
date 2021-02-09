@@ -17,9 +17,3 @@ int _isalpha(int c)
 		return (0);
 	}
 }
-
-int main(void)
-{
-	_isalpha('b');
-		return (0);
-}
