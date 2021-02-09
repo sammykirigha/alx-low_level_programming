@@ -2,14 +2,15 @@
 
 /**
  *main: entry point
- *Description: print lowercase alphabets
- *return: 0
+ *Description- print lowercase alphabets
+ *return: all lowercase letters
  */
 
 void print_alphabet(void)
 {
 	char i = 'a';
-        while (i <= 'z')
+
+	while (i <= 'z')
 	{
 		_putchar(i);
 		i++;
@@ -22,3 +23,4 @@ int main(void)
 	print_alphabet();
 	return (0);
 }
+
