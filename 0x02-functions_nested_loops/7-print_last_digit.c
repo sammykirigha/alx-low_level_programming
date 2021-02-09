@@ -6,7 +6,8 @@
  *return : the digit
  */
 
-int print_last_digit(int num)
+int print_last_digit(int)
 {
+	int num;
 	return (num % 10);
 }
