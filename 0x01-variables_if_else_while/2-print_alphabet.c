@@ -3,20 +3,21 @@
 #include<time.h>
 
 /**
- *main: entry point
- *description: a program that prints alphabets to lowercase
- *return 0 at the end
+ *main-entry point
+ *Description- a program that prints alphabets to lowercase
+ *Return- return 0 upon successful
  */
 
 int main(void)
 {
-  char letter = 'a';
-  
-  while (letter <= 'z')
-  {
-     putchar(letter);
-     letter++;
-  }
-  putchar('\n');
-  return (0);
+	char ch;
+
+	ch = 'a';
+	while (ch <= 'z')
+	{
+		putchar(ch);
+		ch++;
+	}
+	putchar('\n');
+	return (0);
 }

@@ -1,20 +1,20 @@
 #include<stdio.h>
 /**
  *main: enry point
- *description: display lowercase letters except q and e
- *return: 0
+ *Description: display lowercase letters except q and e
+ *Return: return 0 upon successful
  */
 
 int main(void)
 {
-  char ch;
+	char ch;
 
-  for (ch = 'a'; ch <= 'z'; ch++)
-    {
-      if (ch == 'e' || ch == 'q')
-	continue;
-      putchar(ch);
-    }
-  putchar('\n');
-  return (0);
+	for (ch = 'a'; ch <= 'z'; ch++)
+	{
+		if (ch == 'e' || ch == 'q')
+			continue;
+		putchar(ch);
+	}
+	putchar('\n');
+	return (0);
 }
